@@ -9,4 +9,12 @@ const swiper = new Swiper('.swiper', {
   },
   loop: true,
   spaceBetween: 30,
+
+  autoplay: {
+    delay: 3000,
+
+    stopOnLastSlide: false,
+
+    disableOnInteractions: false
+  }
 });
