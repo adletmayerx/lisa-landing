@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <title>Лиза Колмыкова</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__container">
+      <h1 class="title header__title">Son and Bronza</h1>
+      <nav class="nav header__nav">
+        <ul class="nav__list list">
+          <li class="nav__list-item"><a href="#about-me" class="text link nav__link">Обо&nbsp;мне</a></li>
+          <li class="nav__list-item"><a href="#shoots" class="text link nav__link">Съемки</a></li>
+          <li class="nav__list-item"><a href="#" class="text link nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <nav class="socials header__socials">
+        <ul class="socials__list list">
+          <li class="socilas__list-item"><a href="#" class="socials__link link"><img src="./images/instagram-icon.svg" alt="иконка instagram" class="socials__icon"></a></li>
+          <li class="socilas__list-item"><a href="#" class="socials__link link"><img src="./images/telegram-icon.svg" alt="иконка telegram" class="socials__icon"></a></li>
+          <li class="socilas__list-item"><a href="#" class="socials__link link"><img src="./images/whatsapp-icon.svg" alt="иконка whatsapp" class="socials__icon"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="first-filler section"></section>
+
+    <section class="about-me section" id="about-me">
+      <div class="about-me__title-container">
+        <h2 class="about-me__title title section__title">Привет, Дорогой Друг</h2>
+        <p class="about-me__subtitle text">Меня зовут Лиза, и&nbsp;я&nbsp;фотограф из&nbsp;Москвы.
+          Здесь о&nbsp;любви, свободе и&nbsp;возможности быть собой.</p>
+      </div>
+      <div class="about-me__text-container text">
+        <p class="about-me__text">Фотография&nbsp;&mdash; это искусство. Каждый из&nbsp;нас особенный, уникальный
+          и&nbsp;невероятно красивый. Через свои работы я&nbsp;показываю насколько вы&nbsp;прекрасны. Я&nbsp;хочу, чтобы
+          вы&nbsp;почувствовали и&nbsp;никогда не&nbsp;отпускали это ощущение.</p>
+        <p class="about-me__text">Все очень просто и&nbsp;максимально индивидуально! Сделаю съемку именно про вас. Заранее
+          обсуждаем настроение и&nbsp;идею съемки. Можете присылать свои референсы, если есть.</p>
+      </div>
+    </section>
+
+    <section class="second-filler section"></section>
+
+    <section class="individual-shoots section" id="shoots">
+      <div class="individual-shoots__text-container">
+        <h2 class="individual-shoots__title title section__title">Индивидуальные съемки</h2>
+        <div class="studio-shoots block">
+          <h3 class="studio-shoots__title title block__title">Студийные</h3>
+          <p class="studio-shoots__subtitle text">Помогаю с&nbsp;позами и&nbsp;эмоциями. Студия оплачивается отдельно.</p>
+          <p class="studio-shoots__price text">Прайс: 5000р</p>
+        </div>
+        <div class="studio-shoots block">
+          <h3 class="studio-shoots__title title block__title">Прогулочная</h3>
+          <p class="studio-shoots__subtitle text">Заранее обсуждаем настроение съемки. Помогаю выбрать место, это может быть
+            что-угодно! (кафе, ваш дом/квартира, метро и&nbsp;любое другое помещение)</p>
+          <p class="studio-shoots__price text">Прайс: 4000р</p>
+        </div>
+      </div>
+      <div class="individual-shoots__image-container">
+        <img src="./images/individual-shoots__image_size_big-1.png" alt="девушка" class="individual-shoots__image_size_big">
+        <div class="slider">
+          <ul class="slider__list list">
+            <li class="slider__list-item"><button class="slider__button slider__button_type_prev"></button></li>
+            <li class="slider__list-item"><button
+                id="slider__button-1"class="slider__button slider__button_type_select slider__button_type_active"></button></li>
+            <li class="slider__list-item"><button id="slider__button-2"class="slider__button slider__button_type_select"></button></li>
+            <li class="slider__list-item"><button id="slider__button-3"class="slider__button slider__button_type_select"></button></li>
+            <li class="slider__list-item"><button id="slider__button-4"class="slider__button slider__button_type_select"></button></li>
+            <li class="slider__list-item"><button class="slider__button slider__button_type_next"></button></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+    <script src="./pages/index.js"></script>
+</body>
