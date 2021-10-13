@@ -8,6 +8,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500&display=swap"
   rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="./vendor/swiper-bundle.min.css"
+/>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
@@ -67,20 +71,34 @@
         </div>
       </div>
       <div class="individual-shoots__image-container">
-        <img src="./images/individual-shoots__image_size_big-1.png" alt="девушка" class="individual-shoots__image_size_big">
-        <div class="slider">
-          <ul class="slider__list list">
-            <li class="slider__list-item"><button class="slider__button slider__button_type_prev"></button></li>
-            <li class="slider__list-item"><button
-                id="slider__button-1"class="slider__button slider__button_type_select slider__button_type_active"></button></li>
-            <li class="slider__list-item"><button id="slider__button-2"class="slider__button slider__button_type_select"></button></li>
-            <li class="slider__list-item"><button id="slider__button-3"class="slider__button slider__button_type_select"></button></li>
-            <li class="slider__list-item"><button id="slider__button-4"class="slider__button slider__button_type_select"></button></li>
-            <li class="slider__list-item"><button class="slider__button slider__button_type_next"></button></li>
-          </ul>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./images/individual-shoots__image_size_big-1.png" alt="девушка" class="individual-shoots__image_size_big">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/individual-shoots__image_size_big-2.png" alt="девушка" class="individual-shoots__image_size_big">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/individual-shoots__image_size_big-3.png" alt="девушка" class="individual-shoots__image_size_big">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/individual-shoots__image_size_big-4.png" alt="девушка" class="individual-shoots__image_size_big">
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
         </div>
       </div>
     </section>
   </main>
-    <script src="./pages/index.js"></script>
+    <script type="module" src="./pages/index.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </body>
