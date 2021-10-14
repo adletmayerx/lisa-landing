@@ -27,16 +27,18 @@
       </nav>
       <nav class="socials header__socials">
         <ul class="socials__list list">
-          <li class="socilas__list-item"><a href="#" class="socials__link link"><img src="./images/instagram-icon.svg" alt="иконка instagram" class="socials__icon"></a></li>
-          <li class="socilas__list-item"><a href="#" class="socials__link link"><img src="./images/telegram-icon.svg" alt="иконка telegram" class="socials__icon"></a></li>
-          <li class="socilas__list-item"><a href="#" class="socials__link link"><img src="./images/whatsapp-icon.svg" alt="иконка whatsapp" class="socials__icon"></a></li>
+          <li class="socilas__list-item"><a href="https://instagram.com/son_and_bronza?utm_medium=copy_link" target="_blank" class="socials__link link"><img src="./images/instagram-icon.svg" alt="иконка instagram" class="socials__icon"></a></li>
+          <li class="socilas__list-item"><a href="https://telegram.im/@son_and_bronza" target="_blank"" class="socials__link link"><img src="./images/telegram-icon.svg" alt="иконка telegram" class="socials__icon"></a></li>
+          <li class="socilas__list-item"><a href="https://wa.me/+79803184972" target="_blank" class="socials__link link"><img src="./images/whatsapp-icon.svg" alt="иконка whatsapp" class="socials__icon"></a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main class="content">
-    <section class="first-filler section"></section>
+    <section class="first-filler section filler">
+      <img src="./images/first-filler.png" alt="#" class="filler__image">
+    </section>
 
     <section class="about-me section" id="about-me">
       <div class="about-me__title-container">
@@ -53,51 +55,162 @@
       </div>
     </section>
 
-    <section class="second-filler section"></section>
+    <section class="second-filler section filler">
+      <img src="./images/second-filler.png" alt="#" class="filler__image">
+    </section>
 
-    <section class="individual-shoots section" id="shoots">
-      <div class="individual-shoots__text-container">
-        <h2 class="individual-shoots__title title section__title">Индивидуальные съемки</h2>
-        <div class="studio-shoots block">
-          <h3 class="studio-shoots__title title block__title">Студийные</h3>
-          <p class="studio-shoots__subtitle text">Помогаю с&nbsp;позами и&nbsp;эмоциями. Студия оплачивается отдельно.</p>
-          <p class="studio-shoots__price text">Прайс: 5000р</p>
-        </div>
-        <div class="studio-shoots block">
-          <h3 class="studio-shoots__title title block__title">Прогулочная</h3>
-          <p class="studio-shoots__subtitle text">Заранее обсуждаем настроение съемки. Помогаю выбрать место, это может быть
-            что-угодно! (кафе, ваш дом/квартира, метро и&nbsp;любое другое помещение)</p>
-          <p class="studio-shoots__price text">Прайс: 4000р</p>
-        </div>
-      </div>
-      <div class="individual-shoots__image-container">
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <img src="./images/individual-shoots__image_size_big-1.png" alt="девушка" class="individual-shoots__image_size_big">
+    <section class="shoots section" id="shoots">
+
+      <article class="individual-shoots shoots__article">
+        <div class="shoots__left-column individual-shoots__left-column">
+          <div class="shoots__text-container individual-shoots__text-container text">
+            <h2 class="title section__title shoots__title">Индивидуальные съемки</h2>
+            <div class="shoots__block">
+              <h3 class="title block__title">Студийные</h3>
+              <p class="block__text">Помогаю с&nbsp;позами и&nbsp;эмоциями. Студия оплачивается отдельно.</p>
+              <p class="block__text">Прайс: 5000р</p>
             </div>
-            <div class="swiper-slide">
-              <img src="./images/individual-shoots__image_size_big-2.png" alt="девушка" class="individual-shoots__image_size_big">
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/individual-shoots__image_size_big-3.png" alt="девушка" class="individual-shoots__image_size_big">
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/individual-shoots__image_size_big-4.png" alt="девушка" class="individual-shoots__image_size_big">
+            <div class="shoots__block">
+              <h3 class="title block__title">Прогулочная</h3>
+              <p class="block__text">Заранее обсуждаем настроение съемки. Помогаю выбрать место, это может быть что-угодно! (кафе, ваш дом/квартира, метро и&nbsp;любое другое помещение)</p>
+              <p class="block__text">Прайс: 4000р</p>
             </div>
           </div>
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
-
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-
         </div>
-      </div>
+        <div class="shoots__right-column individual-shoots__right-column">
+          <div class="shoots__image-container individual-shoots__image-container">
+            <!-- Slider main container -->
+            <div class="swiper individual-shoots__swiper_size-big">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/individual-shoots__image_size_big-1.png" alt="#" class="shoots__image individual-shoots__image_size_big"></div>
+                <div class="swiper-slide"><img src="./images/individual-shoots__image_size_big-2.png" alt="#" class="shoots__image individual-shoots__image_size_big"></div>
+                <div class="swiper-slide"><img src="./images/individual-shoots__image_size_big-3.png" alt="#" class="shoots__image individual-shoots__image_size_big"></div>
+                <div class="swiper-slide"><img src="./images/individual-shoots__image_size_big-4.png" alt="#" class="shoots__image individual-shoots__image_size_big"></div>
+              </div>
+              <!-- If we need pagination -->
+              <!-- <div class="swiper__controls">
+                <div class="swiper-button-prev about-shoots__swiper_size-small-button-prev"></div>
+
+                <div class="swiper-pagination about-shoots__swiper_size-small-pagination shoots__swiper-pagination"></div>
+
+                <div class="swiper-button-next about-shoots__swiper_size-small-button-next"></div>
+              </div> -->
+            </div>
+
+            <div class="swiper individual-shoots__swiper_size-small">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/individual-shoots__image_size_small-1.png" alt="#" class="shoots__image individual-shoots__image_size_small"></div>
+                <div class="swiper-slide"><img src="./images/individual-shoots__image_size_small-2.png" alt="#" class="shoots__image individual-shoots__image_size_small"></div>
+                <div class="swiper-slide"><img src="./images/individual-shoots__image_size_small-3.png" alt="#" class="shoots__image individual-shoots__image_size_small"></div>
+                <div class="swiper-slide"><img src="./images/individual-shoots__image_size_small-4.png" alt="#" class="shoots__image individual-shoots__image_size_small"></div>
+              </div>
+
+              <div class="swiper__controls">
+              <div class="swiper-button-prev individual-shoots__swiper_size-small-button-prev"></div>
+
+                <!-- If we need pagination -->
+              <div class="swiper-pagination individual-shoots__swiper_size-small-pagination shoots__swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-next individual-shoots__swiper_size-small-button-next"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="about-shoots shoots__article">
+        <div class="shoots__left-column about-shoots__left-column">
+          <div class="shoots__text-container about-shoots__text-container text">
+            <h2 class="title section__title shoots__title">О&nbsp;съемке</h2>
+            <div class="shoots__block">
+              <h3 class="title block__title">Время индивидуальной съемки</h3>
+              <p class="block__text">Примерно&nbsp;1,5-2&nbsp;часа, но&nbsp;так&nbsp;же будем смотреть по&nbsp;ситуации. Четких ограничений нет.</p>
+            </div>
+            <div class="shoots__block">
+              <h3 class="title block__title">Что вы получите</h3>
+              <p class="block__text">70+&nbsp;работ в&nbsp;базовой цветокоррекции и&nbsp;15-20 фотографий в&nbsp;моей профессиональной обработке. Результат через 5-7&nbsp;дней.</p>
+            </div>
+            <div class="shoots__block">
+              <h3 class="title block__title">Дата и&nbsp;Время</h3>
+              <p class="block__text">Заранее обговариваем место и&nbsp;дату. Есдисъемка студийная, бронируем студию. Съемку можно перенести, но&nbsp;не&nbsp;позднее, чем за&nbsp;24&nbsp;часа.</p>
+              <p class="block__text">Если хочется сниматься под любимые треки, то&nbsp;можем заранее составить плейлист. Обязательно выспись перед съёмкой и&nbsp;доверься мне.</p>
+            </div>
+          </div>
+        </div>
+        <div class="shoots__right-column about-shoots__right-column">
+          <div class="shoots__image-container about-shoots__image-container">
+
+            <div class="swiper about-shoots__swiper_size-big">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/about-shoots__image_size_big-1.png" alt="#" class="shoots__image about-shoots__image_size_big"></div>
+                <div class="swiper-slide"><img src="./images/about-shoots__image_size_big-2.png" alt="#" class="shoots__image about-shoots__image_size_big"></div>
+                <div class="swiper-slide"><img src="./images/about-shoots__image_size_big-3.png" alt="#" class="shoots__image about-shoots__image_size_big"></div>
+                <div class="swiper-slide"><img src="./images/about-shoots__image_size_big-4.png" alt="#" class="shoots__image about-shoots__image_size_big"></div>
+              </div>
+              <!-- If we need pagination -->
+              <!-- <div class="swiper__controls">
+                <div class="swiper-button-prev about-shoots__swiper_size-small-button-prev"></div>
+
+                <div class="swiper-pagination about-shoots__swiper_size-small-pagination shoots__swiper-pagination"></div>
+
+                <div class="swiper-button-next about-shoots__swiper_size-small-button-next"></div>
+              </div> -->
+            </div>
+
+            <div class="swiper about-shoots__swiper_size-small">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/about-shoots__image_size_small-1.png" alt="#" class="shoots__image about-shoots__image_size_small"></div>
+                <div class="swiper-slide"><img src="./images/about-shoots__image_size_small-2.png" alt="#" class="shoots__image about-shoots__image_size_small"></div>
+                <div class="swiper-slide"><img src="./images/about-shoots__image_size_small-3.png" alt="#" class="shoots__image about-shoots__image_size_small"></div>
+                <div class="swiper-slide"><img src="./images/about-shoots__image_size_small-4.png" alt="#" class="shoots__image about-shoots__image_size_small"></div>
+              </div>
+
+              <div class="swiper__controls">
+              <div class="swiper-button-prev about-shoots__swiper_size-small-button-prev"></div>
+
+                <!-- If we need pagination -->
+              <div class="swiper-pagination about-shoots__swiper_size-small-pagination shoots__swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-next about-shoots__swiper_size-small-button-next"></div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </article>
+
     </section>
+
+    <footer class="section footer">
+      <h2 class="title section__title footer__title">Контакты</h2>
+      <p class="text footer__text">Как со&nbsp;мной связаться?
+        Есди ты&nbsp;хочешь записаться на&nbsp;съемку, или у&nbsp;тебя остались вопросы, я&nbsp;с&nbsp;радостью на&nbsp;них отвечу в&nbsp;социальных сетях.</p>
+      <nav class="socials footer__socials">
+        <ul class="socials__list list">
+          <li class="socilas__list-item"><a href="https://instagram.com/son_and_bronza?utm_medium=copy_link" target="_blank" class="socials__link link"><img src="./images/instagram-icon.svg" alt="иконка instagram" class="socials__icon"></a></li>
+          <li class="socilas__list-item"><a href="https://telegram.im/@son_and_bronza" target="_blank"" class="socials__link link"><img src="./images/telegram-icon.svg" alt="иконка telegram" class="socials__icon"></a></li>
+          <li class="socilas__list-item"><a href="https://wa.me/89803184972" target="_blank" class="socials__link link"><img src="./images/whatsapp-icon.svg" alt="иконка whatsapp" class="socials__icon"></a></li>
+        </ul>
+      </nav>
+        <p class="footer__love-message text">С&nbsp;Любовью, Лиза</p>
+      <div class="text credits footer__credits">
+        <p class="credits__block">Дизайн:</p>
+        <p class="credits__block">Разработка:</p>
+      </div>
+    </footer>
+
   </main>
     <script type="module" src="./pages/index.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
