@@ -136,6 +136,14 @@ p {
   gap: 50px;
 }
 
+.nav__link {
+  transition: font-weight .3s linear;
+}
+
+.nav__link:hover {
+  font-weight: 600;
+}
+
 .socials__list {
   display: flex;
   justify-content: flex-start;
@@ -146,6 +154,14 @@ p {
   .header__socials {
     display: none;
   }
+}
+
+.socials__icon {
+  transition: all .3s ease-out;;
+}
+
+.socials__icon:hover {
+  transform: scale(1.1);
 }
 
 .about-me {
@@ -169,6 +185,7 @@ p {
   justify-content: flex-start;
   flex-direction: column;
   gap: 10px;
+  flex-basis: 100%;
 }
 
 .about-me__subtitle {
@@ -507,4 +524,13 @@ p {
   justify-content: flex-start;
   gap: 5px;
 
+}
+
+
+.credits__link {
+  transition: font-weight .3s linear;
+}
+
+.credits__link:hover {
+  font-weight: 600;
 }
