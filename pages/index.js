@@ -129,7 +129,6 @@ const mediaQuery = window.matchMedia('(min-width: 1280px)');
 
 
 if (mediaQuery.matches) {
-  // Then trigger an alert
   individualShotsSizeBigSwiper.controller.control = individualShotsSizeSmallBigScreenSwiper;
   individualShotsSizeSmallBigScreenSwiper.controller.control = individualShotsSizeBigSwiper;
 
