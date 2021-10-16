@@ -78,7 +78,6 @@ p {
   background-color: var(--clr-bg);
   margin: 0 auto;
   min-width: 375px;
-  /* max-width: 1440px; */
   color: var(--clr-primary-800);
   font-family: var(--ff-primary);
 }
@@ -211,24 +210,25 @@ p {
 
 .filler__image {
   width:100%;
-  object-fit: contain;
+  object-fit: cover;
+  height: 100%;
 }
 
 .first-filler {
-  max-height: 115px;
+  height: 115px;
 }
 
 .second-filler {
-  max-height: 100px;
+  height: 100px;
 }
 
 @media screen and (min-width: 1024px) {
   .first-filler {
-    max-height: 280px;
+    height: 280px;
   }
 
   .second-filler {
-    max-height: 200px;
+    height: 200px;
   }
 }
 .block__title {
@@ -265,6 +265,7 @@ p {
 @media screen and (max-width: 1024px) {
   .shoots {
     width: 100%;
+    margin-top: 20px;
   }
 
   .shoots__left-column {
@@ -335,6 +336,10 @@ p {
   flex-basis: calc(50% - 200px);
 }
 
+.about-shoots__title {
+  margin-top: 15px;
+}
+
 .about-shoots__right-column {
   flex-basis: 35%;
 }
@@ -347,14 +352,11 @@ p {
   display: none;
 }
 .about-shoots__swiper_size-small-big-screen {
-  display: block;
-  margin-top: 30px;
-  width: calc(100% + 100px);
+    display: block;
+    margin-top: 30px;
+    width: calc(100% + 100px);
+  }
 }
-}
-
-
-
 
 .individual-shoots__swiper_size-small {
   width: 100%;
@@ -456,11 +458,6 @@ p {
 @media screen and (min-width: 1280px) {
   .individual-shoots__swiper_size-small {
     display: none;
-    /* position: relative;
-    margin-left: -423px;
-    margin-top: -100px;
-    width: 600px;
-    z-index: -1; */
   }
 
   .individual-shoots {
@@ -478,24 +475,6 @@ p {
     margin-top: 100px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer {
   margin-top: 30px;
